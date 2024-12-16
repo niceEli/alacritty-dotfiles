@@ -1,6 +1,7 @@
 [general]
 import = [
-  "theme.campbell.toml"
+  "theme/campbell.toml",
+  "font/jetBrainsMono.toml"
 ]
 
 [cursor.style]
@@ -12,16 +13,26 @@ shell = "nu"
 osc52 = "CopyPaste"
 
 [window]
-dimensions = { columns = 120, lines = 32 }
-padding = { x = 8, y = 8 }
-dynamic_padding = true
-decorations = "transparent"
+dynamic_padding = false
+decorations = "buttonless"
 opacity = 0.95
 blur = true
 dynamic_title = true
 
+[window.dimensions]
+columns = 120
+lines = 32
+
+[window.padding]
+x = 6
+y = 6
+
+[bell]
+animation = "EaseOutSine"
+color = "#ffffff"
+duration = 200
+
 [font]
-normal = { family = "JetBrainsMono Nerd Font Mono"}
 size = 14.0
 
 [env]
