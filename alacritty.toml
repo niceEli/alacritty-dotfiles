@@ -1,6 +1,6 @@
 [general]
 import = [
-  "themes/themes/campbell.toml",
+  "themes/themes/vesper.toml",
   "font/jetBrainsMono.toml"
 ]
 
