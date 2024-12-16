@@ -29,7 +29,7 @@ y = 6
 
 [bell]
 animation = "EaseOutSine"
-color = "#ffffff"
+color = "#202020"
 duration = 200
 
 [font]
